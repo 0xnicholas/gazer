@@ -22,9 +22,7 @@ CRAFT is composed of two major components, modules and a runtime.
 ### Modules
 Pallets are functional units that build the Gazer Runtime. Each pallet encapsulates a portion of the business logic, such as accounts, staking, gov, and so on.
 
-A module is defined as a `mod pallet` wrapped by the `craft::module` macro. Within this macro, module components can be defined. Most notable of these parts are:
-一个 pallet 被定义为通过 mod pallet 宏封装的 frame::pallet 。在这个宏内部，可以定义 pallet 组件/部分。其中最值得注意的是：
-
+A module is defined as a `mod module` wrapped by the `craft::module` macro. Within this macro, module components can be defined. Most notable of these parts are:
 - Config, allowing a module to make itself configurable and generic over types, values and such.
 - Storage, allowing a module to define on-chain storage.
 - Dispatchable function, is as function that can be called by the end-user through a tx, which is the “executable method” exposed to the public by module.
