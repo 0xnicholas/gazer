@@ -1,6 +1,5 @@
 # Gazer
-
-Gazer is a Rust framework for building blockchains in a modular and extensible way. It is a set of libraries and primitives for building Monoli Chain.
+Gazer is a modular and extensible blockchain framework built in Rust with support for the rWASM runtime and RISC-V runtime. It is a set of libraries and primitives for building Monoli Chain.
 
 ## How to Get Started
 Gazer offers different options in terms of development freedom and convenience, using SDK templates or custom modules:
