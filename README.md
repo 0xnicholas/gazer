@@ -14,6 +14,9 @@ Gazer contains a lot of crates,In broad terms, these crates are divided into thr
 - `gp-*` (_Gazer-primitives_) crates, located under `./primitives` folder. These are crates that facilitate both the node and the runtime, but are not opinionated about what framework is using for building the runtime(such as Monoli rWASM or RISC-V). Notable examples are `gp_api` and `gp_io`, which form the communication bridge between the node and runtime.
 - `module-*` and `craft-*` crates, located under `./craft` folder. These are the crates related to CRAFT. See craft for more information.
 
+## `gazer-primitives`
+This is Gazer's base library, providing runtime-agnostic, general-purpose primitives including data structures, mathematical utilities, cryptography, Merkle trees, serialization, and other foundational components.
+
 ## CRAFT
 CRAFT is the Gazer’s framework of choice to build a runtime.
 CRAFT is composed of two major components, modules and a runtime.
@@ -101,3 +104,12 @@ pub mod runtime {
 	}
 }
 ```
+
+## Client
+`gc-client` serves as the central execution engine of the node, handling block execution via the runtime, consensus integration, database management, block synchronization, and state verification.
+
+---
+
+_**Reference**
+* [Monoli](https://github.com/0xnicholas/monoli)
+* [Gazer](https://nicholas.feishu.cn/wiki/PN5iw3MN7iLKWVkeLpmclVaUn9g) 
