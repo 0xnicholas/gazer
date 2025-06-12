@@ -1,0 +1,21 @@
+[workspace.package]
+authors = ["Lico Labs<hi@licolabs.xyz>"]
+homepage = "https://github.com/0xnicholas/gazer"
+license = "GPL-3.0-only"
+repository = "https://github.com/0xnicholas/gazer.git"
+edition = "2024"
+
+[[workspace.bin]]
+name = "gc-service"
+path = "client/service/main.rs"
+
+[workspace]
+resolver = "2"
+
+members = [ "client/service",
+    "primitives/runtime",
+    "client/service",
+    "craft/orchestra",
+]
+
+[workspace.dependencies]
