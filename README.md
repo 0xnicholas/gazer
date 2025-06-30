@@ -22,7 +22,7 @@ CRAFT is the Gazer’s framework of choice to build a runtime.
 CRAFT is composed of two major components, modules and a runtime.
 
 ### Modules
-Pallets are functional units that build the Gazer Runtime. Each pallet encapsulates a portion of the business logic, such as accounts, staking, gov, and so on.
+Modules are functional units that build the Gazer Runtime. Each module encapsulates a portion of the business logic, such as accounts, staking, gov, and so on.
 
 A module is defined as a `mod module` wrapped by the `craft::module` macro. Within this macro, module components can be defined. Most notable of these parts are:
 - Config, allowing a module to make itself configurable and generic over types, values and such.
@@ -41,7 +41,7 @@ pub mod module {
 	#[module::config]
 	pub trait Config: module_system::Config {
 		#[allow(deprecated)]
-		type RuntimeEvent: IsType<<Self as frame_system::Config>::RuntimeEvent> + From<Event<Self>>;
+		type RuntimeEvent: IsType<<Self as craft_system::Config>::RuntimeEvent> + From<Event<Self>>;
         
         type ValueParameter: Get<u32>;
         

@@ -15,7 +15,7 @@ resolver = "2"
 members = [ "client/service",
     "primitives/runtime",
     "client/service",
-    "craft/orchestra",
+    "craft/orchestra", "primitives/core", "primitives/mvp_runtime",
 ]
 
 [workspace.dependencies]

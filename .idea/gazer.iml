@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/craft/orchestra/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/primitives/runtime/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/primitives/core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/primitives/mvp_runtime/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/primitives/runtime/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>

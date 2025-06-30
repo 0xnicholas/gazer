@@ -3,11 +3,19 @@
 version = 4
 
 [[package]]
+name = "core"
+version = "0.1.0"
+
+[[package]]
 name = "craft-orchestra"
 version = "0.1.0"
 
 [[package]]
 name = "gp-runtime"
+version = "0.1.0"
+
+[[package]]
+name = "mvp_runtime"
 version = "0.1.0"
 
 [[package]]
