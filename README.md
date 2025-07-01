@@ -1,3 +1,6 @@
+[Gazer](https://github.com/0xnicholas/gazer) originated from the early practice of using Rust to develop blockchain, and then with the exploration of the Monoli project, gradually formed into a development framework for building the Monoli L1 Chain.
+Gazer adopts the architecture design similar to Substrate, and learn from Cosmos SDK in the implementation of some modules.
+
 # 🔮 Gazer
 Gazer is a modular and extensible blockchain framework built in Rust with support for the rWASM runtime and RISC-V runtime. It is a set of libraries and primitives for building Monoli Chain.
 
@@ -110,6 +113,8 @@ pub mod runtime {
 
 ---
 
-_**Reference**
+## _Reference
 * [Monoli](https://github.com/0xnicholas/monoli)
-* [Gazer](https://nicholas.feishu.cn/wiki/PN5iw3MN7iLKWVkeLpmclVaUn9g) 
+* [Gazer Docs](https://nicholas.feishu.cn/wiki/PN5iw3MN7iLKWVkeLpmclVaUn9g)
+* [Substrate Interpretation Docs](https://nicholas.feishu.cn/wiki/BdxfwJmVPiFOWYkLkj0cBWjgnIG?from=from_copylink)
+* [Using Cosmos SDK](https://nicholas.feishu.cn/wiki/OVyBwvOkEiLyZkklVYecarxan5c?from=from_copylink)
